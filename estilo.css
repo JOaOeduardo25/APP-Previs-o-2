@@ -1,0 +1,83 @@
+/* Reset de estilos e configurações globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Estilos do contêiner principal */
+.caixa-maior {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 95%;
+    max-width: 450px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+/* Estilos do botão */
+button {
+    border: none;
+    padding: 10px;
+    background-color: rgba(124, 124, 124, 0.17);
+    cursor: pointer;
+    border-radius: 50%;
+    float: right;
+}
+
+button:hover {
+    background-color: #7c7c7c;
+}
+
+/* Estilos do campo de entrada */
+input {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(124, 124, 124, 0.17);
+    color: #ffffff;
+    width: calc(100% - 100px);
+    font-size: 24px;
+}
+
+/* Estilos do conteúdo da previsão do tempo */
+.caixa-media {
+    margin-top: 30px;
+}
+
+.cidade, .temp, .umidade {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.temp, .umidade {
+    margin-top: 15px;
+}
+/* Estilos do botão */
+button {
+    border: none;
+    padding: 5px; /* Reduzindo o padding para ajustar o tamanho do botão */
+    background-color: rgba(124, 124, 124, 0.17);
+    cursor: pointer;
+    border-radius: 50%;
+    float: right;
+}
+
+/* Estilos da imagem dentro do botão */
+button img.lupa {
+    height: 15px; /* Ajuste a altura conforme desejado */
+    width: 15px; /* Ajuste a largura conforme desejado */
+}
+
